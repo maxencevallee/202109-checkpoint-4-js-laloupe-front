@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+$font-1: "Poppins", sans-serif;
+
+$color-1: rgba(138, 188, 189, 1);
+$color-2: rgba(255, 211, 174, 1);
+$color-3: rgba(36, 51, 51, 1);
+$color-4: rgba(228, 240, 240, 1);
+$color-5: rgba(255, 248, 242, 1);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-1;
+  color: $color-3;
+  background-color: $color-5;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: $color-5;
+  text-decoration: none;
+}
+
+button {
+  font-family: $font-1;
+}
